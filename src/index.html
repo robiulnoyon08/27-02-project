@@ -1,14 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./output.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-dropdown/2.0.3/jquery.dropdown.min.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </head>
+<style>
+  swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
+
 <body>
-    <h1 class="text-red-400">Hello</h1>
-    <a href="./pages/about.html">About</a>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolorum doloremque, voluptatum architecto beatae amet odit dignissimos quasi perferendis harum accusantium voluptate debitis laboriosam dicta dolor impedit saepe animi veritatis!</p>
+  <div>
+    <div class="comtainer p-2.5 flex gap-2 place-items-center">
+      <div>
+        <img src="./logo.png" alt="" />
+      </div>
+      <div class="h-20 bg-white-400 flex items-center gap-2">
+        <a class="px-2 hover:bg-pink-500 border-r-[1px]" href="">Schedule&nbsp;of&nbsp;charges|</a>
+        <a class="px-2 hover:bg-pink-500 border-r-[1px]" href="">Interest&nbsp;Rate|</a>
+        <a class="px-2 hover:bg-pink-500 border-r-[1px]" href="">Exchange&nbsp;Rate|</a>
+        <a class="px-2 hover:bg-pink-500 border-r-[1px]" href="">Foreign&nbsp;Remittance|</a>
+        <a class="px-2 hover:bg-pink-500 border-r-[1px]" href="">Bank&nbsp;Note&nbsp;Security&nbsp;features|</a>
+        <a class="px-2 hover:bg-pink-500 border-r-[1px]" href="">eGP&nbsp;Payment|</a>
+        <a class="px-2 hover:bg-pink-500 border-r-[1px]" href="">Service|</a>
+        <a class="px-2 hover:bg-pink-500 border-r-[1px]" href="">e-&nbsp;booklet|</a>
+        <a class="px-2 hover:bg-pink-500 border-r-[1px]" href="">Disclosure&nbsp;on&nbsp;Risk|</a>
+        <a class="px-2 hover:bg-pink-500 border-r-[1px]" href="">Career|</a>
+        <a class="px-2 hover:bg-pink-500 border-r-[1px]" href="">Citizen&nbsp;Charter|</a>
+      </div>
+    </div>
+    <section id="#nav">
+      <div>
+        <div class="container mx-auto flex justify-between bg-pink-600 py-2 w-full">
+          <span><a class="bg-blue-600 hover:bg-pink-300 mx-2.5" href="#nav">Home</a></span>
+          <div class="bg-blue-600 hover:bg-pink-300 mx-2.5 relative group">
+            <a href="#nav">About Us
+              <span><i class="fa-solid fa-chevron-down"></i></span>
+            </a>
+            <ul class="w-full h-64 bg-slate-500 -mb-10 absolute hidden group-hover:block">
+              <li>Home</li>
+              <li>Contact</li>
+              <li>hffd</li>
+              <li>hffd</li>
+            </ul>
+          </div>
+          <a class="bg-blue-600 hover:bg-pink-300 mx-2.5" href="#nav">Our Banking
+            <span><i class="fa-solid fa-chevron-down"></i></span>
+          </a>
+          <a class="bg-blue-600 hover:bg-pink-300 mx-2.5" href="#nav">Locations
+            <span><i class="fa-solid fa-chevron-down"></i></span>
+          </a>
+          <a class="bg-blue-600 hover:bg-pink-300 mx-2.5" href="#nav">Media Corner
+            <span><i class="fa-solid fa-chevron-down"></i></span>
+          </a>
+          <a class="bg-blue-600 hover:bg-pink-300 mx-2.5" href="#nav">Notice
+            <span><i class="fa-solid fa-chevron-down"></i></span>
+          </a>
+          <a class="bg-blue-600 hover:bg-pink-300 mx-2.5" href="#nav">Financial Literacy
+            <span><i class="fa-solid fa-chevron-down"></i></span>
+          </a>
+          <a class="bg-blue-600 hover:bg-pink-300 mx-2.5" href="#nav">Contact Us</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section id="hero">
+    <swiper-container class="mySwiper" navigation="true">
+      <swiper-slide class="w-full mx-2 my-2">
+        <div>
+          <img src="./Banner/1706002587.jpg" alt="Hero Image" class="w-full" />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div>
+          <img src="./Banner/1706002626.jpg" alt="Hero Image" class="w-full" />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div>
+          <img src="./Banner/1706002649.jpg" alt="Hero Image" class="w-full" />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div>
+          <img src="./Banner/1706002681.jpg" alt="Hero Image" class="w-full" />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div>
+          <img src="./Banner/1706002724.jpg" alt="Hero Image" class="w-full" />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div>
+          <img src="./Banner/1706002746.jpg" alt="Hero Image" class="w-full" />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div>
+          <img src="./Banner/1706002763.jpg" alt="Hero Image" class="w-full" />
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div>
+          <img src="./Banner/1706002778.jpg" alt="Hero Image" class="w-full" />
+        </div>
+      </swiper-slide>
+    </swiper-container>
+  </section>
+  <section id=" marquee">
+    <div class="flex">
+      <div class="flex-none w-62 h-20 bg-purple-700 mx-2 p-2 text-2xl text-white">Latest News & Updates</div>
+      <div class="grow W-full text-purple-700 text-3xl">
+        <marquee behavior="" direction="left">
+          An agreement on Customer Benefit Program was signed between the IMO Holidays and Padma
+          Bank PLC to avail attractive discounts in various packages, hotels and destinations
+          offered exclusively for Padma Bank PLC cardholders and employees. Padma Bank Limited has
+          officially renamed as "Padma Bank PLC. Padma bank PLC launched a new retail product
+          named by "অর্জন ৫২ ফিক্সড ডিপোজিট" Managing Director & CEO of Padma Bank PLC, Mr. Tarek
+          Reaz Khan made a courtesy call to the Dhaka Metropolitan Police Commissioner, Mr.
+          Habibur Rahman BPM (Bar), PPM (Bar). The Managing Director & CEO of Padma Bank PLC, Mr.
+          Tarek Reaz Khan made a courtesy call to the newly appointed Chairman (in charge) of the
+          bank, Mr. Md. Afzal Karim, CEO & Managing Director, Sonali Bank PLC.
+        </marquee>
+      </div>
+      <div class="flex-none w-32 h-20 bg-purple-700 text-center text-2xl text-white p-2"><a href=""></a>See All</div>
+    </div>
+  </section>
+  <section id="Galary">
+    <div class="grid grid-cols-4 gap-4 mx-2">
+      <div><img src="./Breakink/1571891889.png" alt="" /></div>
+      <div><img src="./Breakink/1571891942.png" alt="" /></div>
+      <div><img src="./Breakink/1571891955.png" alt="" /></div>
+      <div><img src="./Breakink/1571891968.png" alt="" /></div>
+      <div><img src="./Breakink/1571891979.png" alt="" /></div>
+      <div><img src="./Breakink/1571891990.png" alt="" /></div>
+      <div><img src="./Breakink/1571892000.png" alt="" /></div>
+      <div><img src="./Breakink/1571892016.png" alt="" /></div>
+    </div>
+  </section>
+  <section id="g1">
+    <div class="grid grid-cols-6 gap-4 w-full h-72 place-items-center bg-gray-400 mx-2 my-2">
+      <div><img src="./Ground/Complaint_Box.png" alt="" />Financial Highlite</div>
+      <div><img src="./Ground/Discount_icon.png" alt="" />Marketing Associate</div>
+      <div><img src="./Ground/EMI_Calculator_icon.png" alt="" />Interest Rate</div>
+      <div><img src="./Ground/Financial_Highlights_icon.png" alt="" />EMI Calculator</div>
+      <div><img src="./Ground/interest-rate.png" alt="" />Our Discunt Partner</div>
+      <div><img src="./Ground/marketing.png" alt="" />Complaint Cell</div>
+    </div>
+  </section>
+  <section id="g2">
+    <div class="grid grid-cols-6 gap-4 w-full h-72 mx-2 my-2 bg-pink-300">
+      <div class=" py-12">
+        <span class="text-blue-400 text-5xl"><a href=""></a><i class="fa-solid fa-building-columns"></i></span>
+        <p>60 Branches & 14 Sub- <br />Branch</p>
+      </div>
+      <div class=" py-12">
+        <span class="text-blue-400 text-5xl"><a href=""><i class="fa-solid fa-filter-circle-dollar"></i></span>
+        <p>07 Agent Banking</p></a>
+      </div>
+      <div class=" py-12">
+        <a href="g2"><img src="./logo.png" alt="" />Padma Wallet</a>
+      </div>
+      <div class=" py-12">
+        <a href="g2"><img src="./G2/iBanking_icon.png" alt="" />Padma Self-Service <br />Account</a>
+      </div>
+      <div class=" py-12">
+        <a href="g2"><img src="./G2/p_wallet.png" alt="" /></a>
+      </div>
+      <div class="text-center">
+        <a href="g2"><img src="./G2/padma_bank_txt_1.png" alt="" />RETURN SLIP</a>
+      </div>
+    </div>
+  </section>
+  <section id="Footer">
+    <div class="container grid grid-cols-4 gap-4 content-between w-full h-56 mx-2 bg-gray-400 gap-4">
+      <div>
+        <div><b>About Us</b></div>
+        <div>Board of Directors</div>
+        <div>Exclusive Commitee</div>
+        <siv>Audit Commitee</siv>
+        <div>Risk Managment</div>
+        <div>Senior Managment Commitee</div>
+        <div>Message Managment from the Director & <br />CEO</div>
+      </div>
+      <div>
+        <div><b>Note</b></div>
+        <div>Schedule of charge</div>
+        <div>Interest</div>
+        <siv>Exchange Rate</siv>
+        <div>Foreign Remittance</div>
+        <div>EMI Calculator</div>
+        <div>Bank Note Security Features</div>
+        <div>eGP Payment Service</div>
+        <div>e-booklet</div>
+      </div>
+      <div>
+        <div><b>Important Links</b></div>
+        <div>Bangladesh Bank</div>
+        <div>Dhaka Stock Exchange</div>
+        <siv>Audit Commitee</siv>
+        <div>Chittagong Stock Exchange</div>
+      </div>
+      <div>
+        <div><b>Others</b></div>
+        <div>Sustainability Report</div>
+        <div>
+          <span class="text-blue-500 text-3xl"><i class="fa-brands fa-facebook"></i></span>
+          <span class="text-red-600 text-3xl"><i class="fa-brands fa-square-youtube"></i></span>
+          <span class="text-blue-600 text-3xl"><i class="fa-brands fa-linkedin"></i></span>
+          <span class="text-red-500 text-3xl"><i class="fa-brands fa-instagram"></i></span>
+        </div>
+        <span>
+          <i class="fa-solid fa-phone-volume"></i>
+        </span>
+        <span>
+          <b>01746050081</b>
+        </span>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
